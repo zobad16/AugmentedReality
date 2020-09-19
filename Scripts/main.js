@@ -1,6 +1,6 @@
 function GenerateQR()
 {
-    var link = "192.168.56.1:5500/ar.html";
+   var link = "https://romantic-euclid-c8f58b.netlify.app/ar.html";
     var qrContainer = new QRCode(document.getElementById("qr-container")) ;
     qrContainer.makeCode(link);
 }
