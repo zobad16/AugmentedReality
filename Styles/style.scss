@@ -1,0 +1,27 @@
+$light-primary:rgb(245, 226, 226);
+$light-secondary: Black;
+
+$dark-primary : rgb(3, 3, 3);
+$dark-font-color: rgb(255, 255, 255);
+$dark-secondary: rgb(83, 11, 131);
+body{
+
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: $dark-primary;
+    color: $dark-font-color;
+    
+}
+.container{
+    background: $light-primary;
+    color: $light-secondary;
+    display: flex;
+    height: 80%;
+    width: 80%;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+
+}
