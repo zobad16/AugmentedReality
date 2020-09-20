@@ -5,19 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Styles/style.css">
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <a-scene embedded arjs>
-            
-            <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-            <a-sky color="#ECECEC"></a-sky>
-
-            <a-marker-camera preset='hiro'></a-marker-camera>
-        </a-scene>
-    </div>
-
+    <a-scene embedded arjs>
+        <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
+        <a-marker-camera preset='hiro'></a-marker-camera>
+    </a-scene>
     
 </body>
 </html>
